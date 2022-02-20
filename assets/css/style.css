@@ -37,7 +37,7 @@ header {
 header h1{
     font-weight: bold;
     margin: 0;
-    font-size: 48px;
+    font-size: 65px;
     color: var(--primary-color);
     text-shadow: 0 0 10px rgba(0, 0, 0, .5);
 }
@@ -62,7 +62,7 @@ header nav ul {
 header nav ul li a{
     padding: 10px 15px;
     font-weight: lighter;
-    font-size: 1.55vw;
+    font-size: 2.15vw;
     text-shadow: 0 0 10px rgba(0, 0, 0, .5);
 }
 
@@ -102,3 +102,36 @@ footer a{
     color: var(--secondary-color);
 }
 /* END FOOTER STYLES */
+
+/* STYLE ALL SECTION TAGS */
+section {
+    padding: 10px;
+}
+
+/*Hero Style Start */
+.hero {
+    background-image: url("../images/polly-background-1631651.jpg");
+    background-size: cover;
+    background-position: 80%;
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+}
+
+.hero-cta {
+    width: 35%;
+    text-align: right;
+    margin: 3.5%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.2;
+  }
+  
+  .hero-cta h2 {
+    font-style: italic;
+    font-size: 28px;
+    color: var(--primary-color);
+    text-shadow: 0 0 10px rgba(0, 0, 0, .5);
+  }
