@@ -137,6 +137,57 @@ section {
   }
  /* HERO STYLES END */
 
+ /* about me start */
+
+  .about-me {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: left;
+    justify-content:flex-start
+  }
+
+.about-me img {
+    width: 25%;
+    align-content: right;
+    justify-content: right;
+    flex: 1 12%;
+}
+
+.about-me-title {
+    color:var(--secondary-color);
+    font-size: 46px;
+    flex: 1 30%;
+}
+
+  .about-me p{
+
+      color:var(--tertiary-color);
+      font-size: 18px;
+  }
+
+  /* about me end */
+
+  .my-work {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: left;
+    justify-content:flex-start
+  }
+
+  .my-work h2 {
+    color:var(--secondary-color);
+    font-size: 46px;
+    flex: 1 30%;
+}
+
+
+
 /* SECTION TITLE STYLES START */
 .section-title {
     font-size: 48px;
